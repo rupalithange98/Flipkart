@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Flipkart</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+      <link rel="stylesheet" href="bootstrap.css">
+ 
+     <link rel="stylesheet" href="animate.css">
+    
+
+  <style type="text/css">
+    body{
+        margin: 0px;
+        font-family: Algerian,sans-serif;
+        background: white url("image/img2.jpg")no-repeat scroll top left;
+
+         background-size: cover;
+
+        }
+
+.main-nav
+{
+    background: linear-gradient(60deg,black,gray);
+    padding: 10px;
+    box-shadow: 0 0 10px black;
+}
+.loginform{
+    box-shadow: 0 0  10px #000939;
+    width:600px;
+    height: 400px;
+    text-align: center;
+    margin:auto;
+    margin-top: 200px;
+    margin-bottom: 250px;
+     padding-top: 50px;
+    background:rgba(0, 0, 0,0.5 );
+
+}
+.loginform img{
+    width:100px;
+    border-radius: 50%;
+    margin-top: -50px;
+    border:5px solid white;
+    box-shadow: 0 0 10px #000939;
+}
+.loginform h2 {
+        color:white;
+        margin-top: 10px;
+}
+input[type='text'],input[type='password']{
+    border:none;
+    text-align: center;
+    font-size:18px;
+    outline: none;
+    height:35px;
+    background: transparent;
+    color:white;
+    border-bottom: 3px solid teal;
+    width:200px;
+}
+::placeholder{
+    color:white;
+}
+input[type='text']:focus,
+input[type='password']:focus{
+    border-bottom: 3px solid #000939;
+
+}
+input[type='submit']{
+    border:none;
+    color:white;
+    font-size: 18px;
+    margin:15px;
+    padding: 8px 35px;
+    border-radius: 50px;
+}
+input[type='submit']:hover{
+    background-color: #000939;
+    box-shadow: 0 0 15px white;
+}
+footer{
+    /*margin-top: 250px;*/
+    background: linear-gradient(60deg,yellow,pink,darkblue,yellow,black);
+    padding: 15px;
+    text-align: center;
+    color: white;
+    margin-bottom: 0px;
+}
+header{
+    /*background:linear-gradient(45deg,black,deeppink,navy);*/
+    background: linear-gradient(60deg,yellow,pink,darkblue,yellow,black);
+    font-family: "Algerian",sans-serif;
+    color:white;
+    box-shadow: black;
+
+}
+    </style>
+</head>
+<body>
+    
+    <header>
+        <table>
+        <tr>
+            <td>
+                <h1 class="animated slideInright">Flipkart.com</h1>
+                <td>....</td>
+            </td>
+                 <td>
+              <input type="text" placeholder="Search here ">
+                </td>
+        </tr>
+        </table>
+        <marquee>Flipkart is online shopping market...It is the best online shopping website</marquee>
+        <h4> EXPLORE plus</h4>
+    </header>
+        <!-- Main Navbar -->
+<nav class="navbar navbar-dark bg-teal navbar-expand-sm">
+    <div class="container">
+        <a href="#" class="navbar-brand">
+            <!-- <img src="favicon.jpg" width="30" height="30"> -->
+            <p class="d-inline">FlipKart Shopping..</p>
+        </a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#uiNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="uiNavbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item px-2 active">
+                    <a href="home.html" class="nav-link">
+                       <i class="fa fa-home"></i> Home</a>
+                </li>
+                <li class="nav-item px-2">
+                    <a href="contactUs.html" class="nav-link">
+                        <i class="fa fa-id-card"></i> Contact Us</a>
+                </li>
+                
+                <li class="nav-item px-2">
+                    <a href="contact.html" class="nav-link">
+                        <i class="fa fa-envelope"></i> Login</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+    <aside>
+
+        <a href="offers.html">Offers Zone</a>
+        <a href="electron.html">Electronics</a>
+        <a href="mens.html">Men's Clothing</a>
+        <a href="womens.html">Womens Clothing</a>
+        <a href="baby.html">Baby & Kids</a>
+        <a href="furniture.html">Home & Furniture</a>
+     
+    </aside>
+
+    <div class="loginform animated flip">
+<img src="image/favicon.ico">
+    <h2>Login Here</h2>
+    <form>
+    <input type="text" placeholder="User Name">
+    <br>
+    <input type="password" placeholder="password">
+    <br>
+    <input type="submit" value="Login">
+    </form>
+</div>
+    <footer>
+        <h3>Copyright © 2020 , Flipkart.com</h3>
+        <p>All Rights Reserved</p>
+        <p>Developed & Maintained by Google</p>
+        
+    </footer>
+
+
+</body>
+</html>
